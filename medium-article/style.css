@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1800x500");
+  text-align: center;
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px grey;
+  border-bottom: 3px solid white;
+  font-weight: bold;
+  text-align: left;
+}
+.banner .text{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+.content p{
+  font-weight: lighter;
+  color:#494949;
+  margin:10px 0px;
+}
+.content h2{
+  font-weight: normal;
+  color:grey;
+}
+
+.link_to_page{
+  background-color: #E9FEF0;
+  text-decoration: none;
+  color:grey;
+  padding: 10px 5px;
+  display: inline-block;
+  margin-top: 10px;
+
+}
+
+.link_to_page:hover{
+  background-color: #9FFBB9;
+  color:grey;
+
+}
